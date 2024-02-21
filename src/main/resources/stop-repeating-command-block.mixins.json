@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.heipiao.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CommandBlockMinecartEntityMixin",
+    "CommandBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

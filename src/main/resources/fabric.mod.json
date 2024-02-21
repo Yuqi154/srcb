@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "stop-repeating-command-block",
+	"version": "${version}",
+	"name": "Stop Repeating Command Block",
+	"description": "Don't be killed by your repeating command block. ONLY FOR RECOVERY.",
+	"authors": [
+		"Hei Piao"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/heipiao233/scrb"
+	},
+	"license": "MIT",
+	"icon": "assets/stop-repeating-command-block/icon.png",
+	"environment": "*",
+	"mixins": [
+		"stop-repeating-command-block.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "*",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"conflicts": {
+		"minecraft": ["<1.20.1", ">=1.21.1"]
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
