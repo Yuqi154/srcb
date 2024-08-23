@@ -1,7 +1,7 @@
 {
   "required": true,
-  "package": "net.heipiao.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "package": "org.hiedacamellia.srcbr.core.mixin",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
     "CommandBlockMinecartEntityMixin",
     "CommandBlockMixin"
